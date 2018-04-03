@@ -1,0 +1,211 @@
+body {
+    background-image: url(/img/background.png);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+body div{
+    width: 924px;
+    margin: auto;
+    background-color: #fffae9;
+}
+
+/*-----personal-----*/
+
+.content_personal {
+    width: 891px;
+    height: 283px;
+    margin-bottom: 47px;
+    background-image: url(../img/personal_ornament.png);
+}
+
+.content_personal img {
+    position: absolute;
+}
+
+.content_personal div {
+    display: table-cell;
+    width: 375px;
+    height: 241px;
+}
+
+.content_personal div h1 {
+    font-family: GaramondC;
+    color:  #4e2c1e;
+    font-size: 22.48px;
+    font-weight: 700;
+}
+
+.content_personal div p{
+    font-family: Arial;
+    color:  #35180c;
+    font-size: 13.11px;
+}
+
+.content_personal div a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 2;
+}
+
+.personal_left {
+    float: left;
+    margin-left: 43px;
+    margin-top: 25px;
+}
+
+.personal_left h1{
+    float: left;
+    padding-right: 90px;
+}
+
+.personal_left img{
+    float: right;
+    position: initial;
+}
+
+.personal_left div{
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #c7a865;
+    background: -webkit-linear-gradient(90deg, #faedc7 0%, #eacf8f 12%, #e8c478 58%, #fff9e0 95%, #fff9e0 100%);
+    background: -moz-linear-gradient(90deg, #faedc7 0%, #eacf8f 12%, #e8c478 58%, #fff9e0 95%, #fff9e0 100%);
+    background: -o-linear-gradient(90deg, #faedc7 0%, #eacf8f 12%, #e8c478 58%, #fff9e0 95%, #fff9e0 100%);
+    background: -ms-linear-gradient(90deg, #faedc7 0%, #eacf8f 12%, #e8c478 58%, #fff9e0 95%, #fff9e0 100%);
+    background: linear-gradient(0deg, #faedc7 0%, #eacf8f 12%, #e8c478 58%, #fff9e0 95%, #fff9e0 100%);
+    width: 122px;
+    height: 24px;
+    float: right;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.personal_left div:hover{
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #ab6e17;
+    background: -webkit-linear-gradient(90deg, #faedc7 0%, #77470b 0%, #d39538 72%, #f5dcb9 95%, #fff9e0 100%);
+    background: -moz-linear-gradient(90deg, #faedc7 0%, #77470b 0%, #d39538 72%, #f5dcb9 95%, #fff9e0 100%);
+    background: -o-linear-gradient(90deg, #faedc7 0%, #77470b 0%, #d39538 72%, #f5dcb9 95%, #fff9e0 100%);
+    background: -ms-linear-gradient(90deg, #faedc7 0%, #77470b 0%, #d39538 72%, #f5dcb9 95%, #fff9e0 100%);
+    background: linear-gradient(0deg, #faedc7 0%, #77470b 0%, #d39538 72%, #f5dcb9 95%, #fff9e0 100%);
+}
+
+.personal_left div a{
+    font-family: Verdana;
+    color:  #4e2c1e;
+    font-size: 12.18px;
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: middle;     
+}
+
+.personal_left div a:hover{
+    font-family: Verdana;
+    color:  #ffffff;
+    font-size: 12.18px;
+    font-weight: 400;
+    text-shadow: 0px 1px 0px rgba(17, 17, 26, 0.46);
+}
+
+.personal_right {
+    float: right;
+    margin-right: 43px;
+    margin-top: 25px;
+}
+
+.personal_right h1{
+    float: right;
+    padding-left: 90px;
+}
+
+.personal_right img{
+    float: left;
+    position: initial;
+    margin-top: -14px;
+}
+
+.personal_right div{
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #c7a865;
+    background: -webkit-linear-gradient(90deg, #faedc7 0%, #eacf8f 12%, #e8c478 58%, #fff9e0 95%, #fff9e0 100%);
+    background: -moz-linear-gradient(90deg, #faedc7 0%, #eacf8f 12%, #e8c478 58%, #fff9e0 95%, #fff9e0 100%);
+    background: -o-linear-gradient(90deg, #faedc7 0%, #eacf8f 12%, #e8c478 58%, #fff9e0 95%, #fff9e0 100%);
+    background: -ms-linear-gradient(90deg, #faedc7 0%, #eacf8f 12%, #e8c478 58%, #fff9e0 95%, #fff9e0 100%);
+    background: linear-gradient(0deg, #faedc7 0%, #eacf8f 12%, #e8c478 58%, #fff9e0 95%, #fff9e0 100%);
+    width: 122px;
+    height: 24px;
+    float: left;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.personal_right div:hover {
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #ab6e17;
+    background: -webkit-linear-gradient(90deg, #faedc7 0%, #77470b 0%, #d39538 72%, #f5dcb9 95%, #fff9e0 100%);
+    background: -moz-linear-gradient(90deg, #faedc7 0%, #77470b 0%, #d39538 72%, #f5dcb9 95%, #fff9e0 100%);
+    background: -o-linear-gradient(90deg, #faedc7 0%, #77470b 0%, #d39538 72%, #f5dcb9 95%, #fff9e0 100%);
+    background: -ms-linear-gradient(90deg, #faedc7 0%, #77470b 0%, #d39538 72%, #f5dcb9 95%, #fff9e0 100%);
+    background: linear-gradient(0deg, #faedc7 0%, #77470b 0%, #d39538 72%, #f5dcb9 95%, #fff9e0 100%);
+}
+
+.personal_right div a {
+    font-family: Verdana;
+    color:  #4e2c1e;
+    font-size: 12.18px;
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: middle; 
+}
+
+.personal_right div a:hover{
+    font-family: Verdana;
+    color:  #ffffff;
+    font-size: 12.18px;
+    font-weight: 400;
+    text-shadow: 0px 1px 0px rgba(17, 17, 26, 0.46);
+}
+
+
+/*-----images-----*/
+
+.images {
+    width: 100%;
+}
+
+.images div {
+    display: inline-block;
+    width: 180px;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+.images div:first-child{
+    margin-left: 63px;
+}
+
+/*------content------*/
+
+.content {
+    width: 880px;
+    margin-left: 23px;
+    margin-right: 24px;
+    margin-bottom: 136px;
+}
+
+.content h1 {
+    font-family: Arial;
+    color: #4e2c1e;
+    font-size: 24px;
+}
+
+.content p {
+    font-family: Arial;
+    color: #4e2c1e;
+    font-size: 14px;
+}
+
