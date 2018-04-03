@@ -1,4 +1,24 @@
 .slider {
-    height: 233px;
+    height: 450px;
     width: auto;
+    margin-top: -85px;
+}
+
+.slider_nav {
+    margin-top: 5px;
+    width: 233px;
+}
+
+.slider_nav a {
+    background-image: url(../img/slider/button.png);
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    margin-left: 16px;
+}
+
+#check {
+    background-image: url(../img/slider/button_click.png);
+    margin-bottom: 2px;
 }

@@ -7,6 +7,7 @@
         <link href="../style/slider.css" rel="StyleSheet">
         <link href="../style/index.css" rel="StyleSheet">
         <link href="../style/footer.css" rel="StyleSheet">
+        <script src="../slider.js"></script>
         <title>Ваш дом</title>
     </head>
     <body>
@@ -68,11 +69,11 @@
                     </div>
                 </div>
                 <div class="menu">
-                    <div><a href="">ГЛАВНАЯ</a></div>
+                    <div><a href="../index.html">ГЛАВНАЯ</a></div>
                     <div class="border"><img src="/img/border_menu.png" alt="border" /></div>
                     <div>
                         <ul class="menu_slide">
-                            <li><a href="Personal.html">ПОДОБРАТЬ ПЕРСОНАЛ</a>
+                            <li><a href="../personal.html">ПОДОБРАТЬ ПЕРСОНАЛ</a>
                                 <ul class="submenu">
                                     <li><a href="" rel="">О нас</a></li>
                                     <li><a href="" rel="">Задать вопрос</a></li>
@@ -94,7 +95,20 @@
                     <div><a href="">КОНТАКТЫ</a></div>
                 </div>
             </div>
-            <div class="slider"></div>
+            <div class="slider">
+                <div>
+                    <img id="slide" src="/img/slider/slide_1.jpg" alt="slide" />
+                </div>
+                <div class="slider_nav">
+                    <a class="dots" id="check" onclick="click(1)"></a>
+                    <a class="dots" onclick="click(2)"></a>
+                    <a class="dots" onclick="click(3)"></a>
+                    <a class="dots" onclick="click(4)"></a>
+                    <a class="dots" onclick="click(5)"></a>
+                    <a class="dots" onclick="click(6)"></a>
+                </div>
+                <a ></a>
+            </div>
             <div class="content_personal">
                 <div class="personal_left">
                     <h1>Постоянный<br>персонал</h1>
