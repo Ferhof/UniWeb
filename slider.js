@@ -1,37 +1,28 @@
-var timeID;
-var timeID2;
-var a = document.getElementsByClassName("dots");
-
-var b = document.getSelection
-
-var delay = 3 * 1000;
+var labels = document.getElementsByClassName("dots");
+var timeId;
+var timeId2;
+var delay = 2 * 1000;
 var n = 1;
 
-function slide_show(i){
-    var check = document.getElementById("check");
-    var slide = document.getElementById("slide");
-    check.removeAttribute("id");
-
+function showSlide(n){
+    var label = document.getElementById("check");
+    var img = document.getElementById("slide");
+    label.removeAttribute("id");
+    
     var result, i, elm;
     
-    for(i = 0; i<6; i++){
-        elm = a[i];
+    for(i = 0; i<labels.length; i++){
+        elm = labels[i];
         if(elm.getAttribute("for") == "slide" + n.toString()){
             result = elm;
         }
     }
-    result.setAttribute("id", "checked");
-    img.setAttribute("src", "/img/slider/slide_" + n.toString() + ".png");
-
-
-
-    
-
-}
+    result.setAttribute("id", "check");
+    img.setAttribute("src", "/img/slider/slide" + n.toString() + ".jpg");
+};
 
 window.onload = function () {
-    slide_show(1);
-    timeID2 = setInterval(function () {
+    timeId2 = setInterval(function () {
         autoSlide(1)
     }, delay);
 };
@@ -39,8 +30,8 @@ window.onload = function () {
 function autoSlide(n)
 {
     showSlide(n)
-    clearInterval(timeID2);
-    clearInterval(timeID);
+    clearInterval(timeId2);
+    clearInterval(timeId);
     timeId = setInterval(function () {
         n = n + 1;
         if (n > 6) {

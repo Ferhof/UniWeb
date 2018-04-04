@@ -7,6 +7,7 @@
         <link href="../style/slider.css" rel="StyleSheet">
         <link href="../style/personal.css" rel="StyleSheet">
         <link href="../style/footer.css" rel="StyleSheet">
+        <script src="../slider.js"></script>
         <title>Подобрать персонал</title>
     </head>
     <body>
@@ -94,7 +95,23 @@
                     <div><a href="">КОНТАКТЫ</a></div>
                 </div>
             </div>
-            <div class="slider"></div>
+            <div class="slider">
+                <img id="slide" src="/img/slider/slide1.jpg" alt="slide" />
+                <input type="radio" name="point" id="slide1" checked>
+                <input type="radio" name="point" id="slide2">
+                <input type="radio" name="point" id="slide3">
+                <input type="radio" name="point" id="slide4">
+                <input type="radio" name="point" id="slide5">
+                <input type="radio" name="point" id="slide6">
+                <div>
+                    <label class="dots" for="slide1" onclick="autoSlide(1)" id="check" ></label>
+                    <label class="dots" for="slide2" onclick="autoSlide(2)"></label>
+                    <label class="dots" for="slide3" onclick="autoSlide(3)"></label>
+                    <label class="dots" for="slide4" onclick="autoSlide(4)"></label>
+                    <label class="dots" for="slide5" onclick="autoSlide(5)"></label>
+                    <label class="dots" for="slide6" onclick="autoSlide(6)"></label>
+                </div>
+            </div>       
             <div style="text-align: center">
                 <h1>Подобрать персонал</h1>
             </div>
