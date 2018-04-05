@@ -59,6 +59,8 @@
     background: linear-gradient(0deg, #faedc7 0%, #eacf8f 12%, #e8c478 58%, #fff9e0 95%, #fff9e0 100%);
     width: 171px;
     height: 23px;
+    margin-top: 8px;
+    text-align: center;
 }
 
 .header_info .link {
@@ -66,23 +68,17 @@
     width: 173px;
 }
 
-.header_info .link div {
-    margin-top: 8px;
-    text-align: center;
-}
-
-.header_info .link div a {
+.header_info .link div > a {
     font-family: BookAntiqua;
     color: #472800;
     font-size: 16px;
     font-weight: 400;
     text-decoration: none;
     display: block;
-    width: inherit;
-    height: inherit;
+    width: 100%;
+    height: 100%;
     line-height: 1.4;
 }
-
 
 
 /*-----form-----*/
