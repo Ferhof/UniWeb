@@ -17,6 +17,7 @@ body div{
     height: 283px;
     margin-bottom: 45px;
     background-image: url(../img/personal_ornament.png);
+    position: relative;
 }
 
 .content_personal img {
@@ -27,6 +28,7 @@ body div{
     display: table-cell;
     width: 375px;
     height: 190px;
+    margin-top: 35px;
 }
 
 .content_personal div h1 {
@@ -45,7 +47,6 @@ body div{
     font-family: Arial;
     color:  #35180c;
     font-size: 13.11px;
-    text-align: justify;
     padding-top: 50px;
 }
 
@@ -60,7 +61,6 @@ body div{
     float: left;
     margin-left: 43px;
     margin-top: 25px;
-    position: relative;
 }
 
 .personal_left h1{
@@ -88,8 +88,8 @@ body div{
     border-radius: 5px;
     text-align: center;
     position: absolute;
-    left: 310px;
-    bottom: -105px;
+    left: 293px;
+    bottom: 20px;
 }
 
 .content_personal > .left_button:hover{
@@ -124,7 +124,6 @@ body div{
     float: right;
     margin-right: 43px;
     margin-top: 25px;
-    position: relative;
 }
 
 .personal_right h1{
@@ -153,8 +152,8 @@ body div{
     border-radius: 5px;
     text-align: center;
     position: absolute;
-    right: 308px;
-    bottom: -105px;
+    right: 295px;
+    bottom: 20px;
 }
 
 .content_personal > .right_button:hover {
